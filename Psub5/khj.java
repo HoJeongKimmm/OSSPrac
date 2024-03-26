@@ -5,7 +5,14 @@ import java.util.Scanner;
 public class khj {
     public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-        System.out.println("이름을 입력하세요 : ", sc.next());
-		System.out.println("학번을 입력하세요 : ", sc.nextInt());
+        System.out.print("이름을 입력하세요 : ");
+        String name = sc.nextLine(); 
+        System.out.print("학번을 입력하세요 : ");
+        String studentID = sc.next(); 
+
+        System.out.println("<출력>");
+        System.out.println("이름: " + name);
+        System.out.println("학번: " + studentID);
+
 	}
 }
