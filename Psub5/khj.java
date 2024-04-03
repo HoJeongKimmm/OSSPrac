@@ -11,11 +11,14 @@ public class khj {
         String studentID = sc.next(); 
         System.out.print("학과를 입력하세요 : ");
         String major = sc.next();
+        System.out.print("학교를 입력하세요 : ");
+        String univ = sc.next();
 
         System.out.println("<출력>");
         System.out.println("이름: " + name);
         System.out.println("학번: " + studentID);
         System.out.println("학과: " + major);
+        System.out.println("학교: " + univ);
 
 
 	}
