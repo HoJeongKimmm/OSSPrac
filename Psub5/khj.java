@@ -10,12 +10,20 @@ public class khj {
         System.out.print("학번을 입력하세요 : ");
         String studentID = sc.next(); 
         System.out.print("학과를 입력하세요 : ");
-        String major = sc.next();
+        String major = sc.next(); 
+      System.out.print("학교를 입력하세요 : ");
+        String univ = sc.next();
+        System.out.print("학년를 입력하세요 : ");
+        String grade = sc.next();
+
 
         System.out.println("<출력>");
         System.out.println("이름: " + name);
         System.out.println("학번: " + studentID);
         System.out.println("학과: " + major);
+        System.out.println("학교: " + univ);
+        System.out.println("학년: " + grade);
+
 
 
 	}
